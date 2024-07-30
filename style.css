@@ -1,0 +1,141 @@
+.main-page {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 2px;
+}
+h1 {
+  display: flex;
+  margin-bottom: 5px;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  margin-top: 0;
+  letter-spacing: 0.5px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+    /* min-width: 80vw; */
+    font-size: 13px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.leetcode-icon {
+  width: 20;
+  height: 20;
+}
+
+.description {
+  margin-top: 10px;
+  width: 80vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* gap: 5px */
+}
+.summary,
+.skills, .education {
+  margin-bottom: 10px;
+  
+}
+.summary span {
+  color: #334155;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+
+.skills ul, .education ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.skills ul li span {
+  font-size: 14px;
+  color: #334155;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+.heading-points {
+  margin: 0;
+  font-weight: 600;
+}
+.sub-heading {
+  margin: 0;
+  font-size: 16px;
+}
+.sub-sub-heading {
+    margin: 0;
+    font-size: 15px;
+}
+hr {
+  background-color: black;
+  height: 1.5px;
+  border: none;
+}
+
+.development-list {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: start;
+    background: red;
+    gap: 10px
+}
+.frontend {
+    display: flex;
+    flex-direction: column;
+    
+}
+.education-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marks-obtain {
+    font-weight: 600;
+    
+}
+.school {
+    color: #334155;
+    letter-spacing: 0.3px;   
+    display: flex ;
+    flex-direction: row;
+    flex: 1;
+}
+.educational-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.date {
+    font-style: italic;
+}
