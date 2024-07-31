@@ -21,11 +21,11 @@ body{
 h1 {
   display: flex;
   margin-bottom: 5px;
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 35px;
+  font-optical-sizing: auto;
+  font-size: 30px;
   margin-top: 0;
   letter-spacing: 0.5px;
   justify-content: center;
@@ -64,7 +64,6 @@ h1 {
 .summary,
 .skills, .education {
   margin-bottom: 10px;
-  
 }
 .summary span {
   color: #1f2937;
@@ -92,7 +91,6 @@ h1 {
   flex-direction: row;
   gap: 8px;
   align-items: baseline;
-  
 }
 
 .skill-item-description {
@@ -131,11 +129,7 @@ hr {
     background: red;
     gap: 10px
 }
-.frontend {
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .education-list-item {
     display: flex;
     flex-direction: row;
@@ -190,6 +184,9 @@ hr {
 
 .project-detail-list {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px 
 }
 .project-description {
   font-family: "Roboto", sans-serif;
